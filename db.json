@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "role": "admin",
+      "email": "admin@example.com",
+      "createTime": "2024-01-01 00:00:00"
+    },
+    {
+      "id": "cb5c",
+      "username": "aaa",
+      "password": "123456",
+      "email": "2239003510@qq.com",
+      "role": "user"
+    }
+  ],
+  "colleges": [
+    {
+      "id": "1",
+      "name": "计算机学院",
+      "description": "计算机科学与技术学院",
+      "createTime": "2024-01-01 00:00:00"
+    },
+    {
+      "id": "d6f1",
+      "name": "人工智能学院",
+      "description": "111"
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "name": "计算机科学与技术1班",
+      "collegeId": 1,
+      "collegeName": "计算机学院",
+      "studentCount": 30,
+      "createTime": "2024-01-01 00:00:00"
+    },
+    {
+      "id": "1591",
+      "name": "软件工程",
+      "collegeId": "d6f1",
+      "collegeName": "人工智能学院",
+      "studentCount": 45
+    }
+  ],
+  "scores": [
+    {
+      "id": "1",
+      "studentName": "张三",
+      "collegeId": 1,
+      "collegeName": "计算机学院",
+      "classId": 1,
+      "className": "计算机科学与技术1班",
+      "subject": "Java程序设计",
+      "score": 85,
+      "examTime": "2024-01-15 09:00:00"
+    },
+    {
+      "id": "8dc3",
+      "studentName": "aaa",
+      "collegeId": "d6f1",
+      "collegeName": "人工智能学院",
+      "classId": "1591",
+      "className": "软件工程",
+      "subject": "英语",
+      "score": 88,
+      "examTime": "2025-06-01T16:00:00.000Z"
+    }
+  ],
+  "notices": [
+    {
+      "id": "1",
+      "title": "关于2024年寒假放假安排的通知",
+      "content": "根据学校安排，2024年寒假将于1月20日开始，2月25日结束。请各位同学相互转告。",
+      "author": "教务处",
+      "status": 1,
+      "createTime": "2024-01-01 00:00:00"
+    },
+    {
+      "id": "dcee",
+      "title": "1111",
+      "content": "1111",
+      "author": "1111",
+      "status": 1
+    }
+  ]
+}
